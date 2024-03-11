@@ -76,3 +76,15 @@ This will open a new window for configuring the API. Set the following fields in
 - Signing Algorithm, leave the default setting, `RS256`.
 
 After entering those values, click the Create button.
+
+## Configure JSON Web Token (JWT) Validation
+
+The verify method consists of three steps to validate the integrity of the token:
+
+    The code snippet below describes the steps involved in validating a JSON Web Token (JWT):
+
+    1. It retrieves the token from the Authorization header.
+    2. The method uses the key ID (kid claim present in the token header) to obtain the key from the JWKS (JSON Web Key Set) for verifying the token signature. If this step encounters any errors, it returns an error message.
+    3. Next, the method attempts to decode the JWT using the gathered information. If there are any errors, it returns an error message. If successful, it returns the token payload.
+
+All done! You are ready now to start securing your endpoints.
