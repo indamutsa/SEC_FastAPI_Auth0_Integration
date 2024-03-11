@@ -30,3 +30,4 @@ def private(token: str = Depends(token_auth_scheme)):
     result = token.credentials
 
     return result
+
