@@ -1,4 +1,4 @@
-#!/Users/aindamutsa/projects/personal-projects/programming-interview/ebury/pyenv/bin/python
+#!/Users/aindamutsa/projects/personal-projects/sofware-engineering/security/SEC-FastAPI-integration-auth0/pyenv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
