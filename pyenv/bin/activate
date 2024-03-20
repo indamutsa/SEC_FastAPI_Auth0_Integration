@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/aindamutsa/projects/personal-projects/programming-interview/ebury/pyenv"
+VIRTUAL_ENV="/Users/aindamutsa/projects/personal-projects/sofware-engineering/security/SEC-FastAPI-integration-auth0/pyenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
